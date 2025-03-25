@@ -198,7 +198,7 @@ address {
 /* ---------- hero ---------- */
 
 .hero {
-  padding: 130px 0 90px 0;
+  padding: 124px 0 10px 0;
   background-image: url("../images/hero-background.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -233,6 +233,10 @@ address {
 
 /* ------section--------- */
 
+.section {
+  padding-bottom: 96px;
+}
+
 .section-border {
   border: 1px solid red;
 }
@@ -258,6 +262,10 @@ address {
 }
 
 /* ------About---------- */
+
+.about {
+  padding-bottom: 176px;
+}
 
 .about__container {
   display: flex;
@@ -306,6 +314,44 @@ address {
 .about__images img:last-child {
   align-self: flex-end;
   margin-left: calc(5% + 50px);
+}
+
+.about__img {
+  border-radius: 150px;
+}
+
+/* -----why-section------ */
+
+.why-section {
+  background-image: linear-gradient(
+    180.05deg,
+    rgba(43, 127, 255, 0.2) 33%,
+    rgba(43, 127, 255, 0) 63%,
+    rgba(43, 127, 255, 0) 89%
+  );
+}
+
+.why-section__title {
+  max-width: 442px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.why__list {
+  display: flex;
+  gap: 56px;
+}
+
+.why__card {
+  max-width: 316px;
+  padding: 24px 32px;
+  border-radius: 32px;
+  background-color: var(--color-primery-white);
+  text-align: center;
+}
+
+.why-section__icon {
+  fill: var(--color-primery-accent);
 }
 
 /* -----procedures----- */
